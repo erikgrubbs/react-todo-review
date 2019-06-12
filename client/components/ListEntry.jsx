@@ -1,8 +1,9 @@
 import React from 'react';
 
-const ListEntry = (props) => {
+const ListEntry = ({place, deleter, index}) => {
     return (
         <div className="item">
+          <li onClick={() => {deleter(index)}}>{place}</li>
         </div>
     );
 };

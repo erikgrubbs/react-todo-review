@@ -4,6 +4,7 @@ body {
   background-image: url("./hollywoodhills.jpg");
   background-size: cover;
   overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 #app {
@@ -49,4 +50,8 @@ body {
 #list {
   overflow: scroll;
   height: 70vh;
+}
+
+.entry {
+  margin: 50px;
 }
